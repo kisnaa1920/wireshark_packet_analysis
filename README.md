@@ -61,7 +61,7 @@
 
 - Applied the `dns` display filter to view only DNS packets.
 - Multiple DNS queries and responses were captured during web browsing.
-- The capture includes domain lookups such as `www.faceboik.com` and various Google services.
+- The capture includes domain lookups such as `www.facebook.com` and various Google services.
 - DNS response packets returned the IP addresses required to establish communication with the requested domains.
 
 ### Why is this important?
