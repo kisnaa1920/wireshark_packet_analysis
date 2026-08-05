@@ -48,5 +48,32 @@
 - How to capture live network traffic using Wireshark.
 - How to identify different protocols from the packet list.
 - How to recognize communication between a local device and external servers using source and destination IP addresses.
+  <br>
+
+## DNS Analysis
+![DNS Analysis](screenshots/03-dns.png)
+<p align="Center">
+  02-live_capture.png
+</p>
+  <br>
+  
+### Observation
+
+- Applied the `dns` display filter to view only DNS packets.
+- Multiple DNS queries and responses were captured during web browsing.
+- The capture includes domain lookups such as `www.faceboik.com` and various Google services.
+- DNS response packets returned the IP addresses required to establish communication with the requested domains.
+
+### Why is this important?
+
+- DNS is responsible for tranalating domain names into IP addresses.
+- Without DNS, users would need to access websites using IP addresses instead of domain names.
+- Analyzing DNS traffic helps understand how systems locate and communicate with remote servers.
+
+### What I learned
+
+- How to filter DNS traffic using Wireshark.
+- How to distinguish between DNS query and DNS response psckets.
+- How domain name resolution works before a connection to a website is establoshed.
   
 
