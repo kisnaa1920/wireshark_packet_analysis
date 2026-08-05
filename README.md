@@ -4,7 +4,7 @@
 <p align="center">
   0.1interface.png
 </p>
-<br>
+  <br>
 
 ### Observation
 - Opened Wireshark and identified the active Wi-Fi interface.
@@ -22,26 +22,31 @@
 - How to identify the active network interfac.
 - The importance of selecting the correct adapter before capturing traffics.
 - Basic familiar with the wireshark interface and its available capture options.
-<br>
+  <br>
 
 ## Live Packet Capture
 ![Live Packet capture](screenshots/02-live_capture.png)
-<p align="Center">02-live_capture.png</p>
-<br>
+<p align="Center">
+  02-live_capture.png
+</p>
+  <br>
 
 ### Observation
 - Successfully captured live network traffic using the Wi-Fi interface.
 - Multiple protocols such as TCP, DNS, QUIC, and TLS were observed during the capture session.
 - The packet list shows communicaition between my local machine and multiple external servers.
 - Different source and destination IP addresses indicate active network communication.
-<br>
+  <br>
+
 ### Why is this important?
 - Live packet capture providers a real-time view of network avtivity.
 - It helps identity  which protocols  are being used by applications and services.
 - This is the foundation for trounleshooting ans network issues and performing security analysis.
   <br>
-## What I Learned
+
+### What I Learned
 - How to capture live network traffic using Wireshark.
 - How to identify different protocols from the packet list.
 - How to recognize communication between a local device and external servers using source and destination IP addresses.
   
+
