@@ -22,7 +22,7 @@
 - How to identify the active network interfac.
 - The importance of selecting the correct adapter before capturing traffics.
 - Basic familiar with the wireshark interface and its available capture options.
-  <br>
+<br>
 
 ## Live Packet Capture
 ![Live Packet capture](screenshots/02-live_capture.png)
@@ -48,7 +48,7 @@
 - How to capture live network traffic using Wireshark.
 - How to identify different protocols from the packet list.
 - How to recognize communication between a local device and external servers using source and destination IP addresses.
-  <br>
+<br>
 
 ## DNS Analysis
 ![DNS Analysis](screenshots/03-dns.png)
@@ -75,6 +75,7 @@
 - How to filter DNS traffic using Wireshark.
 - How to distinguish between DNS query and DNS response psckets.
 - How domain name resolution works before a connection to a website is establoshed.
+<br>
 
 ## TCP Stream Analysis
 ![TCP Stream Analysis](screenshots/04-tcp_stream.png)
@@ -92,5 +93,5 @@
 - How to use **Follow TCP Stream** feature in Wireshark.
 - How to inspect a complete client-server conversation.
 - HHow to identify a successful HTTP to identify a succcessful HTTP response ('200 OK') within capture network traffic.
-
+<br>
 
