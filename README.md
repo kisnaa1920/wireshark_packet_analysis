@@ -137,6 +137,6 @@
 
 
 # Lab Activity 
-'''bash ping 8.8.8.8'''
+'''$ ping 8.8.8.8'''
 
 The generate ICMP Echo request and Echo reply packets were captured and analyzed using Wireshark.
