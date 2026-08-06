@@ -95,3 +95,13 @@
 - How to identify a successful HTTP to identify a successful HTTP response (**'200 OK'**) within capture network traffic.
 <br>
 
+## PACKET DETAILS ANALYSIS
+![Packet Details Analysis](screenshots/05-packet_details.png)
+<p align='center'>
+  05-packet_details.png
+</p>
+
+### Observation
+- Examined the details sturcture of a captured DNS packet.
+- The Packet is organized into multiple protocol layers, including Frame, Ethernet II, Ipv4, UDP and DNS.
+- Each layer contains specific information required to deliver and the packets across the network.
