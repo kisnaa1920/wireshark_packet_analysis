@@ -75,5 +75,22 @@
 - How to filter DNS traffic using Wireshark.
 - How to distinguish between DNS query and DNS response psckets.
 - How domain name resolution works before a connection to a website is establoshed.
-  
+
+## TCP Stream Analysis
+![TCP Stream Analysis](screenshots/04-tcp_stream.png)
+<p align = 'center'>04-tcp_stream.png</p>
+
+### Observation
+- Used the **Follow TCP Stream** feature to inspect the complete  communication between the client and the server.
+- The stream display an HTTP request followed by an **HTTP/1.1 200 OK** response, indicating that the server processed the request successfully.
+- Viewing the entire conversation made it easier to understand how data was exchanged during the session.
+### Why is this important?
+- Follwed a TCP stream combines related packets into a sinfle conversation made it easier to understand  how data was exhanaged during the sesssion.
+- It helps investigators understand how the client and server communicate instead of examinig packet line by line.
+- This featurer is commonly used during network troubleshooting and digital forensic investigation.
+### What I Learned?
+- How to use **Follow TCP Stream** feature in Wireshark.
+- How to inspect a complete client-server conversation.
+- HHow to identify a successful HTTP to identify a succcessful HTTP response ('200 OK') within capture network traffic.
+
 
