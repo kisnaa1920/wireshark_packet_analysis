@@ -53,7 +53,7 @@
 ## DNS Analysis
 ![DNS Analysis](screenshots/03-dns.png)
 <p align="Center">
-  02-live_capture.png
+  03-dns.png
 </p>
   <br>
   
