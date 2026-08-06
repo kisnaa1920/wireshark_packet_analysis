@@ -113,3 +113,24 @@
 - How to inspect packet headers in wireshark.
 - How data is encapsulated through different network protocol layers.
 - How to locate and interpret important information such as IP addresses. UDP deatials and DNS record within a pacet.
+
+## ICMP ANALYSIS
+![ICMP Analysis](screenshots/06-icmp.png)
+<p align='center'>
+  06-icmp.png
+</p>
+
+### Observation
+- Applied the 'ICMP' display filter to capture only ICMP psckets.
+- The capture shows ICMP Echo Request and Echo Reply packets generate during a ping test.
+- The destination host responded successfully, confirming that network connectivity was established.
+
+### Why is this Important?
+- ICMP is widely used to test network connectivity and troubleshoot communication issues.
+- Echo request and Echo reply pacet help verify whether a remote host rechable.
+- Network Adminstrators and security analysis often use ICMP traffic to diagonis  network problwms.
+
+### What I learned?
+- How to filter ICMP Traffic in Wireshark.
+- How to identify Echo Request anf Echo Reply packets.
+- How ping works and how icmp is used to verify connective between two hosts.
