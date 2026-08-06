@@ -92,6 +92,6 @@
 ### What I Learned?
 - How to use **Follow TCP Stream** feature in Wireshark.
 - How to inspect a complete client-server conversation.
-- How to identify a successful HTTP to identify a succcessful HTTP response ('200 OK') within capture network traffic.
+- How to identify a successful HTTP to identify a successful HTTP response (**'200 OK'**) within capture network traffic.
 <br>
 
