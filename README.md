@@ -105,3 +105,11 @@
 - Examined the details sturcture of a captured DNS packet.
 - The Packet is organized into multiple protocol layers, including Frame, Ethernet II, Ipv4, UDP and DNS.
 - Each layer contains specific information required to deliver and the packets across the network.
+### Why is this important?
+- Packet details provide a deeper understanding of how network communication work at different protocol.
+- Inspecting individual headers helps identity=fy source and destination address, protocol information and packet behaviot.
+- This is level of analysis is valuable foe troubleshooting, network monitoring, and digital forensic investigation.
+### What I Learned
+- How to inspect packet headers in wireshark.
+- How data is encapsulated through different network protocol layers.
+- How to locate and interpret important information such as IP addresses. UDP deatials and DNS record within a pacet.
