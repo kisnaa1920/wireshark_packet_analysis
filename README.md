@@ -134,3 +134,9 @@
 - How to filter ICMP Traffic in Wireshark.
 - How to identify Echo Request anf Echo Reply packets.
 - How ping works and how icmp is used to verify connective between two hosts.
+
+
+# Lab Activity 
+'''bash ping 8.8.8.8'''
+
+The generate ICMP Echo request and Echo reply packets were captured and analyzed using Wireshark.
